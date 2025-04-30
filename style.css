@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #word {
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #letters button {
+    margin: 3px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
